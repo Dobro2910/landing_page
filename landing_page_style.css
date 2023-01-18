@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+}
+
+/* navigation bar layout */
+
+.navigation_bar {
+    background-color: #444444;
+    overflow: hidden;
+    padding: 30px 0px 100px 0px;
+    text-align: center;
+}
+
+/* elements of the right of the navigation bar */
+
+.navigation_bar .nav_elements {
+    /* position of elements */
+    float: right;
+    margin-right: 13%;
+}
+
+.navigation_bar .nav_elements a {
+    /* text of elements */
+    font-size: 20px;
+    color:white;
+    font-weight: 300;
+    
+    /* elements seperation */
+    padding-left: 20px;
+}
+
+/* logo on the right of the navigation bar */
+
+.navigation_bar .logo {
+    /* position of logo */
+    margin-left: 13%;
+    float: left;
+
+    /* text of logo */
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+}
+
+/* First section of the main body */
+
+.section_1 {
+    background-color: #444444;
+    color:white;
+    padding-bottom: 200px;
+}
+
+/* First section left side */
+
+.section_1 .left_elements_section_1 {
+    margin-left: 13%;
+    font-size: 25px;
+}
+
+.section_1 .left_elements_section_1 .title_section_1{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.section_1 .left_elements_section_1 button{
+    border-radius: 15px;
+    border: none;
+    width: 160px;
+    height: 45px;
+    margin-top: 10px;
+
+    font-size: 25px;
+    font-weight: 900;
+    color:white;
+
+    background-color: #6495ED;
+}
+
+/* First section right side */
+
+.section_1 .right_elements_section_1 {
+    float: right;
+    margin-right: 15%;
+}
+
+.section_1 .right_elements_section_1 img {
+    width: 550px;
+    height: 300px;
+}
+
+/* Second section of the main body */
+
+.section_2 {
+    padding-bottom: 130px;
+}
+
+/* Second section title */
+
+.section_2 h2 {
+    text-align: center;
+
+    font-size: 35px;
+}
+
+/* Second section body */
+
+.section_2 .section_2_body {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* Second section flexbox */
+
+.section_2 .section_2_body .section_2_flex_box {
+    flex-direction: column;
+
+    text-align: center;
+    font-size: 17px;
+    color: #303030;
+}
+
+.section_2 .section_2_body .section_2_flex_box  div {
+    border-radius: 15px;
+    border-color: #6495ED;
+    border-style: solid;
+    
+    width: 150px;
+    height: 150px;
+
+    margin-bottom: 10px;
+}
+
+/* Third section */
+
+.section_3 {
+    background-color: 	#E0E0E0;
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Third section quote*/
+
+.section_3 .section_3_body a {
+    font-size: 35px;
+    font-style: italic;
+}
+
+/* Third section reference*/
+
+.section_3 .section_3_body .section_3_quote {
+    float: right;
+
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Fourth section */
+.section_4 {
+    height: 350px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main background of section 4 */
+
+.section_4 .section_4_body {
+    border-radius: 15px;
+    background-color: #6495ED;
+    height: 150px;
+    width: 1100px;
+
+    color: white;
+}
+
+/* positioning the text and the title of section 4 */
+
+.section_4 .section_4_body a {
+    text-align: center;
+    
+    font-size: 25px;
+    font-weight: bold;
+
+    margin-left: 12%;
+    position: relative;
+    top: 40px;
+}
+
+.section_4 .section_4_body .section_4_text {
+    font-size: 20px;
+    font-weight: normal;
+
+    margin-left: 12%;
+}
+
+/* position the button of section 4 */
+
+.section_4 .section_4_body button {
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: 	#FFFFFF;
+    width: 160px;
+    height: 45px;
+
+    font-size: 25px;
+    font-weight: 900;
+    color:white;
+
+    background-color: #6495ED;
+
+    float: right;
+    margin-right: 12%;
+    margin-top: 25px;
+}
+
+/* section 5 */
+
+.section_5 {
+    background-color: #444444;
+    color: white;
+    height: 150px;
+
+    font-size: 20px;
+    font-weight: normal;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
